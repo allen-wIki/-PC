@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer-wrap {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.column-wrap{
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 380px;
+  display: flex;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+.column-wrap>li{
+  margin-right: 25px;
+}
+.column-wrap>li:last-child{
+  margin-right: 0;
+}
+
+.copyright-wrap{
+  margin: 16px auto;
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #999; 
+}

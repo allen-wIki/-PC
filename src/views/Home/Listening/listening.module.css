@@ -1,0 +1,11 @@
+.listening_wrap{
+  width: 100%;
+  height: 782px;
+  background-color: #f5f5f5;
+}
+
+.listening_main{
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 1200px;
+}

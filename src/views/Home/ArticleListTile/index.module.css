@@ -1,0 +1,23 @@
+.title_wrap {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 180px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  color: #24292c;
+}
+
+.title_img {
+  margin: 10px auto;
+  width: 140px;
+  height: 16px;
+}
+
+.english_name {
+  text-align: center;
+  font-size: 14px;
+  color: #24292c;
+}
