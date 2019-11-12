@@ -1,0 +1,49 @@
+.travelnote_wrap {
+  margin: 0 auto;
+  width: 1200px;
+  height: 736px;
+  overflow: hidden;
+}
+
+.items_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_wrap {
+  width: 282px;
+  height: 457px;
+  background-color: #ffffff;
+  border: solid 1px #e0e0e0;
+}
+
+.img {
+  position: relative;
+  height: 380px;
+}
+
+.subheading {
+  position: absolute;
+  top: 132px;
+  padding: 30px 18px;
+  height: 137px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  background: rgba(0, 0, 0, .4);
+}
+
+.title {
+  margin-top: 14px;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333;
+}
+.author{
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+	line-height: 19px;
+	color: #4bbef9;
+}

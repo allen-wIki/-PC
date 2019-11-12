@@ -6,6 +6,7 @@ import Listening from './Listening';
 import Interesting from './Interesting';
 import Chating from './Chating';
 import Travelnote from './Travelnote';
+import Photography from './Photography';
 
 export default class Home extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class Home extends Component {
         <Interesting />
         <Chating />
         <Travelnote />
+        <Photography />
       </div>
     )
   }
