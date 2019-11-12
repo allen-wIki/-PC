@@ -1,0 +1,32 @@
+.content {
+  width: 88px;
+  min-height: 70px;
+  background: #fff;
+}
+
+.select_value {
+  padding-top: 27px;
+  padding-left: 14px;
+  font-size: 16px;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+
+.list_wrap {
+  padding-top: 22px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #383838;
+  background: #fff;
+  z-index: 10;
+}
+.list_wrap>div{
+  padding-left: 14px;
+  font-family: MicrosoftYaHei;
+}
+
+.select {
+  color: #109d59;
+  font-family: MicrosoftYaHei-Bold;
+  background-color: #f6faf8;
+}
