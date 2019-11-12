@@ -26,12 +26,12 @@ module.exports = {
     "quotes": [2, "single"], //单引号
     "no-console": 0, //不禁用console
     "no-debugger": 2, //禁用debugger
-    "no-var": 0, //对var警告
+    "no-var": 1, //对var警告
     "semi": 0, //不强制使用分号
     "no-irregular-whitespace": 0, //不规则的空白不允许
     "no-trailing-spaces": 1, //一行结束后面有空格就发出警告
     "eol-last": 0, //文件以单一的换行符结束
-    "no-unused-vars": [2, {"vars": "all", "args": "after-used"}], //不能有声明后未被使用的变量或参数
+    "no-unused-vars": [1, {"vars": "all", "args": "after-used"}], //不能有声明后未被使用的变量或参数
     "no-underscore-dangle": 0, //标识符不能以_开头或结尾
     "no-alert": 2, //禁止使用alert confirm prompt
     "no-lone-blocks": 0, //禁止不必要的嵌套块
@@ -50,7 +50,7 @@ module.exports = {
     "no-this-before-super": 0, //在调用super()之前不能使用this或super
     "no-undef": 2, //不能有未定义的变量
     "no-use-before-define": 2, //未定义前不能使用
-    "camelcase": 0, //强制驼峰法命名
+    "camelcase": 2, //强制驼峰法命名
     "jsx-quotes": [2, "prefer-double"], //强制在JSX属性（jsx-quotes）中一致使用双引号
     "react/display-name": 0, //防止在React组件定义中丢失displayName
     "react/forbid-prop-types": [2, {"forbid": ["any"]}], //禁止某些propTypes
@@ -86,8 +86,8 @@ module.exports = {
     "react/jsx-equals-spacing": 2, //在JSX属性中强制或禁止等号周围的空格
     "no-unreachable": 1, //不能有无法执行的代码
     "comma-dangle": 2, //对象字面量项尾不能有逗号
-    "no-mixed-spaces-and-tabs": 0, //禁止混用tab和空格
-    "prefer-arrow-callback": 0, //比较喜欢箭头回调
+    "no-mixed-spaces-and-tabs": 2, //禁止混用tab和空格
+    "prefer-arrow-callback": 1, //比较喜欢箭头回调
     "arrow-parens": 0, //箭头函数用小括号括起来
     "arrow-spacing": 0 //=>的前/后括号
   },

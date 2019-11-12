@@ -1,13 +1,13 @@
 .title_wrap {
   margin: 0 auto;
-  margin-top: 50px;
+  padding-top: 50px;
   width: 180px;
   text-align: center;
 }
 
 .title {
-  font-size: 24px;
   color: #24292c;
+  font-size: 24px;
 }
 
 .title_img {
@@ -17,7 +17,7 @@
 }
 
 .english_name {
+  color: #24292c;
   text-align: center;
   font-size: 14px;
-  color: #24292c;
 }

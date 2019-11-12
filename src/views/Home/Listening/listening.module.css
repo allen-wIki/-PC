@@ -6,6 +6,15 @@
 
 .listening_main{
   margin: 0 auto;
-  padding-top: 50px;
   width: 1200px;
+}
+
+.listening_content_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  height: 554px;
+  overflow: hidden;
+}
+.listening_content_wrap>div{
+  height: 277px;
 }

@@ -1,0 +1,47 @@
+.interesting_wrap {
+  height: 588px;
+}
+
+.movement_main {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+}
+
+.list_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.list_item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.list_item_img {
+  width: 144px;
+  height: 144px;
+}
+
+.list_item_content_wrap {
+  margin-left: 10px;
+  width: 430px;
+}
+
+.list_item_content_title{
+  padding-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.list_item_author_wrap{
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.list_item_content{
+  font-size: 14px;
+	line-height: 25px;
+	color: #545454;
+}

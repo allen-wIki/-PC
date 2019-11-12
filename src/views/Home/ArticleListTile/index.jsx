@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import style from './index.module.css';
 
-export default function ArticleListTile(props){
+export default function ArticleListTile(props) {
   return (
     <div className={style.title_wrap}>
       <div className={style.title}>{props.title}</div>

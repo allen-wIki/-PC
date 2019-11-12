@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 import Swiper from 'swiper/js/swiper.min.js';
 import 'swiper/css/swiper.min.css';
@@ -8,10 +8,7 @@ import style from './movement.module.css';
 import img from '@assets/img/home/blue_index_09.png';
 import movement from '@assets/img/home/movement.png';
 
-
 import ArticleListTile from '../ArticleListTile';
-
-
 export default class Movement extends Component {
 
   constructor() {

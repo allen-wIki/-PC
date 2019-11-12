@@ -5,10 +5,6 @@ import style from './column.module.css';
 import img from '@assets/img/home/listening/listening_03.png';
 
 export default function Column(props) {
-
-  console.log(props)
-
-
   const isLoggedIn = props.type;
   return (
     <div className={style.column_wrap}>

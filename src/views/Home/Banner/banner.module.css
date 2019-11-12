@@ -5,31 +5,32 @@
 
 .article_wrap {
   position: absolute;
-  width: 1200px;
-  height: 100%;
   top: 144px;
   left: 50%;
+  width: 1200px;
+  height: 100%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
 .article {
+  overflow: hidden;
   width: 600px;
   height: 230px;
   color: #fff;
-  overflow: hidden;
   background-color: rgba(0, 0, 0, .5);
 }
 
 .article_title {
   margin-top: 24px;
-  font-size: 21px;
   text-align: center;
+  font-size: 21px;
 }
 
 .article_content {
-  font-family: MicrosoftYaHei;
   margin: 25px 16px 0 16px;
   text-indent: 2em;
   font-size: 12px;
+  font-family: MicrosoftYaHei;
   line-height: 32px;
 }

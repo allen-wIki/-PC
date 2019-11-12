@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 export default class Movement extends Component {
-  render(){
+  render() {
     return (
       <div>
         这是乐章
