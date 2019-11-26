@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Header from './Header';
+import Header from './Header/index';
 
 export default class Music extends Component {
   render() {

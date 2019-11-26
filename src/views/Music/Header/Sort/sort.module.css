@@ -1,0 +1,10 @@
+.sort_wrap{
+  width: 100%;
+}
+.letter_wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.letter_wrap>div{
+  flex: 1;
+}
